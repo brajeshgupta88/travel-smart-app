@@ -8,6 +8,7 @@ interface Props {
 
 export default function TravelForm({ onMissingInfo }: Props) {
   const [request, setRequest] = useState("");
+//  const [query, setQuery] = useState("");
   const { setItinerary } = useItineraryStore();
 
   const handleSubmit = async (e: React.FormEvent) => {
